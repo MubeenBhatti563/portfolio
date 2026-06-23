@@ -12,7 +12,7 @@ const personSchema = {
   "@type": "Person",
   name: "Mubeen",
   jobTitle: "Full Stack Developer",
-  url: "https://your-domain.com",
+  url: "https://portfolio-beryl-eta-zuq6c5ksg2.vercel.app",
   sameAs: socialLinks.map((link) => link.path),
   address: {
     "@type": "PostalAddress", // 37251

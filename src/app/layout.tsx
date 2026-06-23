@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const SITE_URL = "https://your-domain.com";
+const SITE_URL = "https://portfolio-beryl-eta-zuq6c5ksg2.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Mubeen | Full Stack Developer Portfolio",
     description:
-      "Full-stack developer building scalable, high-performance web applications with React, Next.js, and Node.js.",
+      "Full-stack developer building scalable, high-performance web applications with React, Next.js, NestJS and Node.js.",
     images: ["/og-image.png"],
   },
   robots: {
