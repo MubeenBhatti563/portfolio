@@ -23,7 +23,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="z-50 top-0 sticky w-full dark:bg-dark-bg md:py-1 lg:py-2">
+    <nav className="z-50 top-0 sticky w-full dark:bg-dark-bg py-1 lg:py-2">
       <div
         className={`absolute inset-0 -z-10 transition-all duration-500 ease-in-out ${
           isScrolled
