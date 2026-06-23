@@ -1,0 +1,33 @@
+{
+  "cacheItemsMap": {
+    "blog/how-i-built-this.mdx": {
+      "document": {
+        "title": "Building an MDX Powered System Architecture",
+        "publishedAt": "2026-06-15",
+        "summary": "A deep dive case study into constructing a robust type-safe file database pipeline inside Next.js using Contentlayer.",
+        "tags": [
+          "NextJS",
+          "Architecture",
+          "TypeScript"
+        ],
+        "body": {
+          "raw": "\n# Architecture Overview\n\nThis blog runs entirely on a static pipeline decoupled from the framework UI code layer. By writing clean text inside local text files, we can compilation-check parameters at build-time.\n\n### Code Testing\n\nYou can use standard styling wrappers natively out-of-the-box like `const app = express()`.\n",
+          "code": "var Component=(()=>{var u=Object.create;var s=Object.defineProperty;var h=Object.getOwnPropertyDescriptor;var m=Object.getOwnPropertyNames;var x=Object.getPrototypeOf,y=Object.prototype.hasOwnProperty;var f=(t,e)=>()=>{try{return e||t((e={exports:{}}).exports,e),e.exports}catch(i){throw e=0,i}},g=(t,e)=>{for(var i in e)s(t,i,{get:e[i],enumerable:!0})},o=(t,e,i,c)=>{if(e&&typeof e==\"object\"||typeof e==\"function\")for(let r of m(e))!y.call(t,r)&&r!==i&&s(t,r,{get:()=>e[r],enumerable:!(c=h(e,r))||c.enumerable});return t};var w=(t,e,i)=>(i=t!=null?u(x(t)):{},o(e||!t||!t.__esModule?s(i,\"default\",{value:t,enumerable:!0}):i,t)),_=t=>o(s({},\"__esModule\",{value:!0}),t);var d=f((v,a)=>{a.exports=_jsx_runtime});var j={};g(j,{default:()=>p,frontmatter:()=>b});var n=w(d()),b={title:\"Building an MDX Powered System Architecture\",publishedAt:\"2026-06-15\",summary:\"A deep dive case study into constructing a robust type-safe file database pipeline inside Next.js using Contentlayer.\",tags:[\"NextJS\",\"Architecture\",\"TypeScript\"]};function l(t){let e={code:\"code\",h1:\"h1\",h3:\"h3\",p:\"p\",...t.components};return(0,n.jsxs)(n.Fragment,{children:[(0,n.jsx)(e.h1,{children:\"Architecture Overview\"}),`\n`,(0,n.jsx)(e.p,{children:\"This blog runs entirely on a static pipeline decoupled from the framework UI code layer. By writing clean text inside local text files, we can compilation-check parameters at build-time.\"}),`\n`,(0,n.jsx)(e.h3,{children:\"Code Testing\"}),`\n`,(0,n.jsxs)(e.p,{children:[\"You can use standard styling wrappers natively out-of-the-box like \",(0,n.jsx)(e.code,{children:\"const app = express()\"}),\".\"]})]})}function p(t={}){let{wrapper:e}=t.components||{};return e?(0,n.jsx)(e,{...t,children:(0,n.jsx)(l,{...t})}):l(t)}return _(j);})();\n;return Component;"
+        },
+        "_id": "blog/how-i-built-this.mdx",
+        "_raw": {
+          "sourceFilePath": "blog/how-i-built-this.mdx",
+          "sourceFileName": "how-i-built-this.mdx",
+          "sourceFileDir": "blog",
+          "contentType": "mdx",
+          "flattenedPath": "blog/how-i-built-this"
+        },
+        "type": "Blog",
+        "slug": "how-i-built-this"
+      },
+      "documentHash": "1781510775331",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    }
+  }
+}

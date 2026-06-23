@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme {
+  /* System colors */
+  --color-primary: #9929fb;
+  --color-secondary: #a43cfd;
+  --color-tertiary: #6e06f2;
+  --color-light-text: #373a3f;
+
+  /* Dark Mode Colors */
+  --color-dark-bg: #0b0f19;
+  --color-dark-card: #131c2e;
+  --color-dark-border: #1e293b;
+  --color-dark-text-main: #f8fafc;
+  --color-dark-text-sub: #94a3b8;
+
+  /* Break point for small devices */
+  --breakpoint-exsm: 448px;
+}
+
+.active {
+  background-color: var(--color-primary);
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.active:hover {
+  background-color: var(--color-secondary);
+}
+
+/* Dark mode prefrences */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html,
+body {
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease;
+  background-color: #ffffff;
+  color: #0f172a;
+  scroll-behavior: smooth;
+}
+
+html.dark body {
+  background-color: var(--color-dark-bg);
+  color: var(--color-dark-text-main);
+}
