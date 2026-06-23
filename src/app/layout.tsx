@@ -76,11 +76,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark overflow-x-hidden`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark overflow-x-clip`}
       data-scroll-behavior="smooth"
       suppressHydrationWarning
     >
-      <body className="min-h-full flex flex-col overflow-x-hidden">
+      <body className="min-h-full flex flex-col overflow-x-clip">
         <AOSInit />
         <ThemeToggle>{children}</ThemeToggle>
       </body>
