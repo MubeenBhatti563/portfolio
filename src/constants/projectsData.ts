@@ -2,6 +2,16 @@ import type { Project } from "@/types";
 
 export const projectsData: Project[] = [
   {
+    id: 0,
+    title: "Getso Auth System",
+    description:
+      "A production-ready authentication system built with modern web technologies, featuring secure JWT authentication, role-based access control, session management, email verification, password recovery, and an admin dashboard.",
+    tools: "Tailwind, NextJS, NestJS, Prisma, Postgresql, TypeScript",
+    source_code: "https://github.com/MubeenBhatti563/getso-auth",
+    preview: "https://getso-auth.vercel.app",
+    image: "/projects/Getso_Auth.png",
+  },
+  {
     id: 1,
     title: "News Monkey",
     description: "A website where you can see daily latest news and read more.",
