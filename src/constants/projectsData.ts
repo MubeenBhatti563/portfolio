@@ -2,6 +2,16 @@ import type { Project } from "@/types";
 
 export const projectsData: Project[] = [
   {
+    id: 39393,
+    title: "BankaiSync ChatApp",
+    description:
+      "BankaiSync (inspired by the legendary Bankai 卍解 — Maximum Power Release) is a modern, high-performance, full-stack real-time communication platform. Built with Next.js 16 (App Router) on the frontend and NestJS 11 on the backend, BankaiSync delivers sub-millisecond bidirectional messaging, instant notification dispatching, live presence tracking, and robust friend management.",
+    tools: "Tailwind, NextJS, PrismaORM, SocketIO, NestJS, Redis",
+    source_code: "https://github.com/MubeenBhatti563/BankaiSync",
+    preview: "",
+    image: "/projects/chat_app.png",
+  },
+  {
     id: 0,
     title: "Getso Auth System",
     description:
