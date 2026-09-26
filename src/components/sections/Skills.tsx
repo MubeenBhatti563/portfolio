@@ -19,7 +19,7 @@ const Skills = () => {
   return (
     <section
       id="skills"
-      className="w-full min-h-[88.5vh] mt-4"
+      className="w-full min-h-auto xl:min-h-[50vh] lg:min-h-[88.5vh] mt-16 max-w-350 mx-auto"
       data-aos="fade-up"
       data-aos-duration="1000"
     >

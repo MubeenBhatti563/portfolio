@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="w-full flex flex-col-reverse gap-12 md:gap-16 lg:gap-0 items-center lg:flex-row min-h-[88.5vh] lg:pr-15 mt-2 lg:mt-0 md:justify-between"
+      className="w-full flex flex-col-reverse gap-12 md:gap-16 lg:gap-0 items-center lg:flex-row lg:min-h-[88.5vh] min-h-auto lg:pr-15 mt-16 lg:mt-0 md:justify-between max-w-350 mx-auto 2xl:min-h-[50vh]"
       data-aos="fade-up"
       data-aos-duration="1000"
     >

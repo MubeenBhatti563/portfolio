@@ -16,7 +16,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="mt-12 min-h-[88.5vh] px-4 md:px-0"
+      className="mt-16 min-h-auto lg:min-h-[88.5vh] xl:min-h-[50vh] px-4 md:px-0 max-w-350 mx-auto"
       data-aos="fade-left"
       data-aos-duration="1000"
     >

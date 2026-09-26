@@ -30,7 +30,7 @@ const Footer = () => {
 
   return (
     <footer className="w-full mt-16 border-t border-tertiary/20 dark:border-slate-800">
-      <div className="w-[95%] mx-auto py-10 flex flex-col gap-8">
+      <div className="w-[95%] mx-auto py-10 flex flex-col gap-8 max-w-350">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-8">
           <div className="flex flex-col gap-2 items-center md:items-start text-center md:text-left">
             <span className="text-2xl font-extrabold">
@@ -56,7 +56,7 @@ const Footer = () => {
             ))}
           </ul>
 
-          <div className="flex items-center gap-4">
+          <div className="flex w-full items-center justify-center gap-4 md:w-auto md:justify-start">
             {socialLinks.map((link) => (
               <a
                 key={link.name}

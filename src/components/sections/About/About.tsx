@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full flex flex-col gap-12 lg:gap-0 items-center lg:flex-row justify-between min-h-[88.5vh] lg:pl-12 mt-16 lg:mt-0"
+      className="w-full flex flex-col gap-12 lg:gap-0 items-center lg:flex-row justify-between min-h-auto lg:min-h-[88.5vh] lg:pl-12 mt-18 lg:mt-0 max-w-350 mx-auto 2xl:min-h-[50vh]"
       data-aos="fade-right"
       data-aos-duration="1000"
     >

@@ -32,7 +32,7 @@ const Navbar = () => {
         }`}
       />
       <ParticleAnimation direction="left-right" />
-      <div className="flex items-center justify-between w-[95%] mx-auto">
+      <div className="flex items-center justify-between w-[95%] max-w-350 mx-auto">
         <LogoName />
         <NavLinks
           isShowSidebar={isShowSidebar}

@@ -9,7 +9,7 @@ const Projects = () => {
   const featuredProjects = projectsData.slice(0, FEATURED_COUNT);
 
   return (
-    <section id="projects" className="mt-8 mb-16 lg:mb-16">
+    <section id="projects" className="mt-16 mb-16 lg:mb-16 max-w-350 mx-auto">
       <div className="flex gap-4 flex-col" data-aos="fade-up">
         <h2 className="text-3xl flex flex-row justify-center sm:justify-start gap-2 font-extrabold md:text-5xl lg:text-7xl">
           <span className="dark:text-dark-text-main">My</span>
