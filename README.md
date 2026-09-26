@@ -1,37 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mubeen — Full-Stack Developer Portfolio
 
-## Getting Started
+A fast, responsive portfolio website for **Mubeen**, a full-stack TypeScript developer based in Faisalabad, Pakistan. It highlights selected work, technical skills, and ways to connect.
 
-First, run the development server:
+**[View the live site](https://portfolio-beryl-eta-zuq6c5ksg2.vercel.app)** · **[Browse projects](https://portfolio-beryl-eta-zuq6c5ksg2.vercel.app/projects)**
+
+![Portfolio preview](public/projects/portfolio_overview.png)
+
+## Highlights
+
+- Responsive, accessible single-page portfolio with a dedicated projects route
+- Dark and light themes with persisted theme preference
+- Animated sections and polished interaction states
+- Search-engine and social-sharing metadata, including Open Graph, Twitter cards, sitemap, robots file, and Person JSON-LD
+- Downloadable résumé and direct contact/social links
+- Project cards linking to source code and live previews where available
+
+## Built with
+
+- [Next.js 16](https://nextjs.org/) and [React 19](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS 4](https://tailwindcss.com/)
+- [Motion](https://motion.dev/) and [AOS](https://michalsnik.github.io/aos/) for animation
+- [next-themes](https://github.com/pacocoursey/next-themes) for color-mode support
+
+## Run locally
+
+### Prerequisites
+
+- Node.js 20.9 or later
+- npm
+
+### Installation
 
 ```bash
+git clone https://github.com/MubeenBhatti563/portfolio.git
+cd portfolio
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available commands
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command | Description |
+| --- | --- |
+| `npm run dev` | Start the local development server. |
+| `npm run build` | Create an optimized production build. |
+| `npm run start` | Serve the production build. |
+| `npm run lint` | Run ESLint checks. |
 
-## Learn More
+## Project structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+src/
+├── app/                 # App Router pages, metadata, sitemap, and global styles
+├── components/
+│   ├── sections/        # Hero, About, Projects, Skills, Contact, Navbar, Footer
+│   └── ui/              # Theme, animation, and reusable UI helpers
+├── constants/           # Skills, featured projects, contact, and social data
+├── hooks/               # Custom React hooks
+├── lib/                 # Shared utilities
+└── types/               # TypeScript models
+public/                  # Images, technology icons, and résumé
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Customize it
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The content is deliberately data-driven. Update these files to tailor the portfolio:
 
-## Deploy on Vercel
+| What to change | Location |
+| --- | --- |
+| Featured projects | `src/constants/projectsData.ts` |
+| Skills and icons | `src/constants/skills.ts` |
+| Social links | `src/constants/socialsLinks.ts` |
+| Contact details | `src/constants/Contact.ts` |
+| Site title, SEO, and social preview metadata | `src/app/layout.tsx` |
+| Résumé | `public/resume.pdf` |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Portfolio
+- [LinkedIn](https://www.linkedin.com/in/muhammad-mubeen-64633231a/)
+- [GitHub](https://github.com/MubeenBhatti563)
+- [Medium](https://medium.com/@mubeeniqbal563)
+- [Email](mailto:mubeeniqbal563@gmail.com)
+
+## License
+
+This project is available for personal reference. Please ask before reusing its content, visual identity, or résumé.
